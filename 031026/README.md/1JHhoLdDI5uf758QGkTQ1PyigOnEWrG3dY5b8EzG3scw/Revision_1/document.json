@@ -291,6 +291,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -301,6 +302,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -311,6 +313,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -331,6 +334,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -341,6 +345,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -361,6 +366,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -371,6 +377,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -381,6 +388,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -491,6 +499,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -501,6 +510,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -511,6 +521,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",

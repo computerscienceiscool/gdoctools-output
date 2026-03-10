@@ -118,8 +118,9 @@
       "Type": "paragraph",
       "Elements": [
         {
-          "Type": "text",
-          "Content": "Alt Text for image"
+          "Type": "inlineImage",
+          "Content": "kix.e6lpuxre5dgm.png",
+          "AltText": "Alt Text for image"
         },
         {
           "Type": "text",

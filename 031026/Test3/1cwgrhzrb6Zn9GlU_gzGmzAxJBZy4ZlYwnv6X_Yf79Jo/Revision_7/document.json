@@ -243,6 +243,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 1,
           "Elements": [
             {
               "Type": "text",
@@ -253,6 +254,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 2,
           "Elements": [
             {
               "Type": "text",
@@ -263,6 +265,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 3,
           "Elements": [
             {
               "Type": "text",
@@ -273,6 +276,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 4,
           "Elements": [
             {
               "Type": "text",
@@ -283,6 +287,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 5,
           "Elements": [
             {
               "Type": "text",
@@ -293,6 +298,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 6,
           "Elements": [
             {
               "Type": "text",
@@ -303,6 +309,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 7,
           "Elements": [
             {
               "Type": "text",
@@ -313,6 +320,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 8,
           "Elements": [
             {
               "Type": "text",
@@ -323,6 +331,7 @@
         },
         {
           "Type": "listItem",
+          "Level": 8,
           "Elements": [
             {
               "Type": "text",

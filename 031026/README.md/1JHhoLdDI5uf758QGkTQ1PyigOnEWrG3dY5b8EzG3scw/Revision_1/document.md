@@ -8,35 +8,26 @@ revision:
 
 ---
 
-# <span style="font-size:23PT"><b>GDocs2MD
-</b></span>
+# <span style="font-size:23PT"><b>GDocs2MD</b></span>
 
 GDocs2MD is a command-line tool that converts Google Docs documents within a specified Google Drive folder to Markdown format and saves them locally. It also fetches comments and revisions from the documents and saves them along with the main content.
 
 
-## <span style="font-size:17PT"><b>Prerequisites
-</b></span>
+## <span style="font-size:17PT"><b>Prerequisites</b></span>
 
 - **Go**: Ensure you have Go installed. You can download it from golang.org.
-
 - **Google API Credentials**: You'll need a Google Cloud project with the Google Drive and Google Docs APIs enabled. Create OAuth 2.0 credentials and download the <span style="color:#188037"><span style="font-family:'Roboto Mono'">credentials.json</span></span> file.
 
+## <span style="font-size:17PT"><b>Setup</b></span>
 
-## <span style="font-size:17PT"><b>Setup
-</b></span>
-
-### <span style="color:#000000"><span style="font-size:13PT"><b>Environment Variables
-</b></span></span>
+### <span style="color:#000000"><span style="font-size:13PT"><b>Environment Variables</b></span></span>
 
 Set the following environment variables with the credentials from your Google Cloud project:
 
 
 - GOOGLE_CLIENT_ID: Your OAuth 2.0 client ID.
-
 - GOOGLE_CLIENT_SECRET: Your OAuth 2.0 client secret.
-
 - GOOGLE_REDIRECT_URI: Your OAuth 2.0 redirect URI. This is typically set to <span style="color:#188037"><span style="font-family:'Roboto Mono'">http://localhost:8080</span></span>.
-
 
 You can set these variables in your terminal session using:
 
@@ -46,8 +37,7 @@ export GOOGLE_CLIENT_SECRET="your-client-secret"
 export GOOGLE_REDIRECT_URI="your-redirect-uri"
 
 
-### <span style="color:#000000"><span style="font-size:13PT"><b>Install Dependencies
-</b></span></span>
+### <span style="color:#000000"><span style="font-size:13PT"><b>Install Dependencies</b></span></span>
 
 Run the following command to install the required dependencies:
 
@@ -55,74 +45,45 @@ Run the following command to install the required dependencies:
 go mod tidy
 
 
-## <span style="font-size:17PT"><b>Usage
-</b></span>
+## <span style="font-size:17PT"><b>Usage</b></span>
 
 - Run the Program:
 go run cmd/main.go
-
 - Authorize the Application:
-
-- The program will prompt you to open a URL in your browser.
-
-- Open the URL, log in to your Google account, and grant the necessary permissions.
-
-- Copy the authorization code provided and paste it back into the terminal.
-
+  - The program will prompt you to open a URL in your browser.
+  - Open the URL, log in to your Google account, and grant the necessary permissions.
+  - Copy the authorization code provided and paste it back into the terminal.
 - Enter the Google Drive Folder URL:
-
-- After authentication, the program will prompt you to enter the URL of the Google Drive folder you want to process.
-
-- Paste the folder URL into the terminal and press Enter.
-
+  - After authentication, the program will prompt you to enter the URL of the Google Drive folder you want to process.
+  - Paste the folder URL into the terminal and press Enter.
 - Conversion Process:
+  - The program will retrieve the documents from the specified Google Drive folder.
+  - Each document will be converted to Markdown format, including comments and revisions.
+  - The converted files will be saved in a local folder named after the Google Drive folder.
 
-- The program will retrieve the documents from the specified Google Drive folder.
+## <span style="font-size:17PT"><b>Expected Behavior</b></span>
 
-- Each document will be converted to Markdown format, including comments and revisions.
-
-- The converted files will be saved in a local folder named after the Google Drive folder.
-
-
-## <span style="font-size:17PT"><b>Expected Behavior
-</b></span>
-
-### <span style="color:#000000"><span style="font-size:13PT"><b>Inputs
-</b></span></span>
+### <span style="color:#000000"><span style="font-size:13PT"><b>Inputs</b></span></span>
 
 - Authorization Code: After opening the URL provided by the program and authorizing access, you'll receive an authorization code. Enter this code into the terminal when prompted.
-
 - Google Drive Folder URL: Enter the URL of the Google Drive folder containing the documents you want to convert.
 
-
-### <span style="color:#000000"><span style="font-size:13PT"><b>Outputs
-</b></span></span>
+### <span style="color:#000000"><span style="font-size:13PT"><b>Outputs</b></span></span>
 
 - The program will create a folder in the current directory named after the Google Drive folder.
-
 - Inside this folder, you'll find:
+  - Markdown files for each Google Doc in the folder.
+  - Separate Markdown files for each revision of the documents.
+  - Comments included at the end of each document's Markdown file.
 
-- Markdown files for each Google Doc in the folder.
-
-- Separate Markdown files for each revision of the documents.
-
-- Comments included at the end of each document's Markdown file.
-
-
-## <span style="font-size:17PT"><b>File Structure
-</b></span>
+## <span style="font-size:17PT"><b>File Structure</b></span>
 
 - cmd/main.go: The main program file.
-
 - internal/auth: Handles OAuth2 authentication.
-
 - internal/docs: Contains functions for converting Google Docs to Markdown and saving files.
-
 - internal/drive: Contains functions for interacting with Google Drive API.
 
-
-## <span style="font-size:17PT"><b>License
-</b></span>
+## <span style="font-size:17PT"><b>License</b></span>
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
