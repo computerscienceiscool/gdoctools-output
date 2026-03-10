@@ -34,10 +34,10 @@ Arial
 ~~STRIKETROUGH~~
 
 
-THREE~SUB2~
+THREE<sub>SUB2</sub>
 
 
-FIVE^2^
+FIVE<sup>2</sup>
 
 
 <span style="font-size:21PT"><sup>This is great 🎉 — and this is © 2025!</sup></span>
