@@ -1,0 +1,421 @@
+{
+  "Filename": "Test1",
+  "Revision": {
+    "Id": 1,
+    "Date": "2024-05-31T08:01:04.921Z"
+  },
+  "Elements": [
+    {
+      "Type": "pageBreak"
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Table in markdown\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " Month    ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " Savings ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|\n",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "--------",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "-------",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|\n",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " January  ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " $250    ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|\n",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " February ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " $80     ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|\n",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " March    ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " $420    ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "|\n",
+          "Style": {
+            "Color": "#d4d4d4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Table in google docs\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "table",
+      "Elements": [
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "Month\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "Savings\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "January\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "$250\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "February\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "$80\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "March\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "$420\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    }
+  ]
+}
