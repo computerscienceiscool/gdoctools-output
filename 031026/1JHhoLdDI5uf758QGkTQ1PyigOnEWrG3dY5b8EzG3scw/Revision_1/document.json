@@ -1,0 +1,622 @@
+{
+  "Filename": "README.md",
+  "Revision": {
+    "Id": "1",
+    "Date": "2024-07-02T01:01:09.956Z"
+  },
+  "Elements": [
+    {
+      "Type": "pageBreak"
+    },
+    {
+      "Type": "heading1",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "GDocs2MD\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 23,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "GDocs2MD is a command-line tool that converts Google Docs documents within a specified Google Drive folder to Markdown format and saves them locally. It also fetches comments and revisions from the documents and saves them along with the main content.\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "heading2",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Prerequisites\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 17,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Go",
+              "Style": {
+                "Bold": true
+              }
+            },
+            {
+              "Type": "text",
+              "Content": ": Ensure you have Go installed. You can download it from golang.org.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Google API Credentials",
+              "Style": {
+                "Bold": true
+              }
+            },
+            {
+              "Type": "text",
+              "Content": ": You'll need a Google Cloud project with the Google Drive and Google Docs APIs enabled. Create OAuth 2.0 credentials and download the ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "credentials.json",
+              "Style": {
+                "FontFamily": "Roboto Mono",
+                "Color": "#188037"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": " file.\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "heading2",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Setup\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 17,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "heading3",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Environment Variables\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 13,
+              "Unit": "PT"
+            },
+            "Color": "#000000"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Set the following environment variables with the credentials from your Google Cloud project:\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "GOOGLE_CLIENT_ID: Your OAuth 2.0 client ID.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "GOOGLE_CLIENT_SECRET: Your OAuth 2.0 client secret.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "GOOGLE_REDIRECT_URI: Your OAuth 2.0 redirect URI. This is typically set to ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "http://localhost:8080",
+              "Style": {
+                "FontFamily": "Roboto Mono",
+                "Color": "#188037"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": ".\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "You can set these variables in your terminal session using:\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "export GOOGLE_CLIENT_ID=\"your-client-id\"\nexport GOOGLE_CLIENT_SECRET=\"your-client-secret\"\nexport GOOGLE_REDIRECT_URI=\"your-redirect-uri\"\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "heading3",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Install Dependencies\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 13,
+              "Unit": "PT"
+            },
+            "Color": "#000000"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Run the following command to install the required dependencies:\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "go mod tidy\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "heading2",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Usage\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 17,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Run the Program:\ngo run cmd/main.go\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Authorize the Application:\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "The program will prompt you to open a URL in your browser.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Open the URL, log in to your Google account, and grant the necessary permissions.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Copy the authorization code provided and paste it back into the terminal.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Enter the Google Drive Folder URL:\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "After authentication, the program will prompt you to enter the URL of the Google Drive folder you want to process.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Paste the folder URL into the terminal and press Enter.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Conversion Process:\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "The program will retrieve the documents from the specified Google Drive folder.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Each document will be converted to Markdown format, including comments and revisions.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "The converted files will be saved in a local folder named after the Google Drive folder.\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "heading2",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Expected Behavior\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 17,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "heading3",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Inputs\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 13,
+              "Unit": "PT"
+            },
+            "Color": "#000000"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Authorization Code: After opening the URL provided by the program and authorizing access, you'll receive an authorization code. Enter this code into the terminal when prompted.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Google Drive Folder URL: Enter the URL of the Google Drive folder containing the documents you want to convert.\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "heading3",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Outputs\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 13,
+              "Unit": "PT"
+            },
+            "Color": "#000000"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "The program will create a folder in the current directory named after the Google Drive folder.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Inside this folder, you'll find:\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Markdown files for each Google Doc in the folder.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Separate Markdown files for each revision of the documents.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Comments included at the end of each document's Markdown file.\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "heading2",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "File Structure\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 17,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "cmd/main.go: The main program file.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "internal/auth: Handles OAuth2 authentication.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "internal/docs: Contains functions for converting Google Docs to Markdown and saving files.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "internal/drive: Contains functions for interacting with Google Drive API.\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "heading2",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "License\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 17,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "This project is licensed under the MIT License. See the LICENSE file for details.\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    }
+  ]
+}
