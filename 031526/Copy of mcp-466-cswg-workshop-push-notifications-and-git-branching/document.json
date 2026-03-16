@@ -1,0 +1,1377 @@
+{
+  "Filename": "Copy of mcp-466-cswg-workshop-push-notifications-and-git-branching",
+  "Revision": {
+    "Id": "1",
+    "Date": "2026-03-11T19:57:07.447Z",
+    "ModifiedBy": "JJ Salley",
+    "Email": "jjsalley@gmail.com"
+  },
+  "Elements": [
+    {
+      "Type": "pageBreak"
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Name: ",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "mcp-466-cswg-workshop-push-notifications-and-git-branching",
+          "Style": {
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Title: ",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "Push notifications and Git branching",
+          "Style": {
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Status",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        },
+        {
+          "Type": "text",
+          "Content": ": Draft -- anyone can edit. ",
+          "Style": {
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {
+            "Bold": true,
+            "FontSize": {
+              "Magnitude": 10,
+              "Unit": "PT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "See the ",
+          "Style": {
+            "Italic": true
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "MCP index",
+          "Style": {
+            "Italic": true,
+            "Underline": true,
+            "Color": "#1155cc",
+            "Link": "http://mcp.systems"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " to create or find documents, or ",
+          "Style": {
+            "Italic": true
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "mcp-0-readme",
+          "Style": {
+            "Italic": true,
+            "Underline": true,
+            "Color": "#1155cc",
+            "Link": "http://bit.ly/nom-mcp"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " for an overview.  \n",
+          "Style": {
+            "Italic": true
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "The headers above are machine-readable; please preserve format.\n",
+          "Style": {
+            "Italic": true
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text"
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Text checkins\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Steve\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "passed stage 1 check oral exam\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "flight portion next Tuesday, (re)solo Wednesday or Friday next week\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "spent last weekend studying, will need to spend this weekend simming\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Cat surgery and furnace repairs yesterday\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Now resumed work on timeline items \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "decomk\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "mob-consensus\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "grokker/storm refactor\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": " JJ\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Going to Bsides infosec conference on Fri and Sat.…. I gave llm lots of team readmes, asked it to find the perfect schedule, it even listed what project it would benefit: ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "https://drive.google.com/file/d/1azEsITQOf-v3i40T08VwtKX-kD6Z3TCf/view?usp=sharing",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://drive.google.com/file/d/1azEsITQOf-v3i40T08VwtKX-kD6Z3TCf/view?usp=sharing"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "  \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Looked into push notifications\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Codespace for collab editor stuff.  I was able to see the same doc from another computer using a codespace earlier this week: ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "https://github.com/ciwg/collab-codespace",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://github.com/ciwg/collab-codespace"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "  the collab-codespace tab from my shared doc on the side has photos!!\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Dog problems\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Lots of driving with my 21 year old\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "A talk from the Santa Fe Institute, with a professor from UC Davis: ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "Giving Groups Control Over the Rules of the Game, in Simulation, in the Lab, and in the Wild",
+              "Style": {
+                "Link": "https://www.youtube.com/watch?v=087fB2jZesc\u0026fbclid=IwY2xjawQN1lhleHRuA2FlbQIxMABicmlkETFoNGtkbDhqbmdBRHUybEIzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrkXZ7T5M0XldjtOA81io0K8uVUrnQjeEMDPtNRRKvKlMXSWRCy1b-CuDtOn_aem_U59Et9HQ6rFMv_i4-J4JPA"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "\t\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Richard\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Flying back from desert on Saturday. The wild flowers are starting to show up. My cactus garden is looking good\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Open Edx is now pretty stable and have been playing around remotely quite a bit. I asked some AI if Open Edx was in use by Fab Labs or Maker Spaces. I’d have to remind myself but basically it said well yes of course its a natural but couldn’t find any examples. Fab Foundation didn’t seem to have any specific info. Is there a fab lab or maker space out there somewhere using Open Edx?\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "The main url I have is learn.soupstone.zone and you should be able to set up an account and either get an email or just hit the accept button. There is a standard Edx demo and one I’m experimenting with. \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "There’s an Edx annual conference in Salt Lake City in May I think. I might go\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "This platform, in time, could be a good way to put up explanatory/tutorial stuff about Promise Grid. Think of it as powerpoint on steroids.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Donaldo\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "I cancelled wifi, may have interruption March 9, but have library \u0026 makerspace as an option\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Catching up on microelectronics course; coming up with ideas for my design, maybe a ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "cellular automaton ",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://en.wikipedia.org/wiki/Cellular_automaton"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "or neuron\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "TXRX is doing a Cable \u0026 Harness Assembly training from April 13-May 14\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "IPC/WHMA-A-620 certification\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 3,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "whma.org",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "http://whma.org"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": " - Wire Harness Manufacturing Association\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "One more class I didn't expect 😩 but i signed up for a seat\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Rebecca\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Back in Albuquerque\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "This trip went pretty well and things are at a good place\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Parents have shown a lot of interest in moving to a retirement apartment, I'd probably be dealing with a lot around a house sale if they do this, but on the whole I would expect it would be a situation that would meet their future needs much better\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Had a very stressful thing happen last night (I don't mind talking about it but don't feel like writing it down), it didn't affect anyone I know, and I am feeling a lot better, but might still be a bit distracted by it\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Timeline\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "https://gitea.t7a.org/cswg/coordination/src/branch/main/timeline.md",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://gitea.t7a.org/cswg/coordination/src/branch/main/timeline.md"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": " \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Mob consensus going really well\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "storm/grokker refactor is behind\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Discussion of plan mode in Codex, good for short term where you don't need a long term to-do or checklist\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Grokker being cloned, rather than renamed, to preserve dependencies\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\t\t\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Push notifications and Git branching",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": " \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Core problem:  In a world with LLMs editing 100X the volume of code, git merge conflicts are unmanageable by humans\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "longer term, LLMS themselves will help with merging, or deconflicting\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "in the short term, we need to manually communicate pretty verbosely to head off merge conflicts before they happen\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Practice repo, not the repo for today's demo, but it has lots of other stuff: ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "https://github.com/computerscienceiscool/git-practice-repo.git",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://github.com/computerscienceiscool/git-practice-repo.git"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Ntfy page: ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "https://ntfy.sh/nfty-test-jj-2026",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://ntfy.sh/nfty-test-jj-2026"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "*sidenote: its 'TF' not 'FT'\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Ntfy's pricing page is nicely worded, friendly in transparency, developer, affordability. ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "https://ntfy.sh/#pricing",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://ntfy.sh/#pricing"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": " \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Compare to Twilio, no prices listed, a ton of different plans, not open\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Twilio also requires a lot of different things around how data is stored, opting in, we would need a compliance person to track this\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "git log --all --graph\n",
+              "Style": {
+                "FontFamily": "Roboto Mono",
+                "Color": "#188037"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "display commits and messages, row by row",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "git log --oneline --all --graph\n",
+              "Style": {
+                "FontFamily": "Roboto Mono",
+                "Color": "#188037"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "shows the merges as a graph",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "git mergetool",
+              "Style": {
+                "FontFamily": "Roboto Mono",
+                "Color": "#188037"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Mob-consensus helps with this, pops-up difftool, executes the merge, displays the merge\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "mob-consensus does this, in this order:\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "git difftool {local branch} {remote branch}  \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "shows differences between local and remote branches\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "git merge {remote branch}\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "merges remote changes into local branch, potentially creating merge conflicts\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "git mergetool   \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "helps with resolving merge conflicts\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Next implementing LLM based merge conflict resolution\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "more advanced mob-consensus features\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Other applications of ntfy \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Makerspace, equipment is down, print is done, machine is busy\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Maintence\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "\"Wait, doesn't Github already have a mobile app?\"\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "What we're getting at is NOT only when a merge or commit is create, but ALSO when someone is working on a branch, in a repo hacking on stuff\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "LLM could eventually say something like \"Hey Steve is working on this, seems like it might conflict with what you've started working on [...]\"\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "You can extend to non-Github remotes, ie. Gitea, Gitlab, etc.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Github app forces you to work in a particular workflow (for better and for worst)\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "reading review seems to be 'read only' on many things\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Post meeting\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Interesting groups\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Santa Fe Institute ",
+              "Style": {}
+            },
+            {
+              "Type": "text",
+              "Content": "https://www.santafe.edu/",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://www.santafe.edu/"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "https://mindbrain.ucdavis.edu/",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://mindbrain.ucdavis.edu/"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": " \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "https://www.youtube.com/results?search_query=seth+frey",
+              "Style": {
+                "Underline": true,
+                "Color": "#1155cc",
+                "Link": "https://www.youtube.com/results?search_query=seth+frey"
+              }
+            },
+            {
+              "Type": "text",
+              "Content": " \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Steve uploaded exam book to chatgpt and did a voice chat to simulate oral examiner grilling you about the stuff\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "JJ: Will there be an increase in oral exams due to AI?\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 2,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Instructor would be a bottle neck in grading, but flipped on its head, AI is performing the examination\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Level": 1,
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
