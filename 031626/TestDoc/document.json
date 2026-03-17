@@ -1,0 +1,1245 @@
+{
+  "Filename": "TestDoc",
+  "Revision": {
+    "Id": "572",
+    "Date": "2026-03-16T01:00:55.963Z",
+    "ModifiedBy": "JJ Salley",
+    "Email": "jjsalley@gmail.com"
+  },
+  "Headers": [
+    {
+      "Type": "paragraph",
+      "Alignment": "END",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "[Page #]"
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    }
+  ],
+  "Elements": [
+    {
+      "Type": "heading",
+      "Content": "main doc\n",
+      "Level": 1
+    },
+    {
+      "Type": "pageBreak"
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Mar 31, 2026"
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Alignment": "CENTER",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "This paragraph is suppose to be centered. This paragraph is suppose to be centered. This paragraph is suppose to be centered. This paragraph is suppose to be centered. This paragraph is suppose to be centered. \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "JJ Salley",
+          "Style": {
+            "Link": "mailto:jjsalley@gmail.com"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " mentions person chip\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "This paragraph is left aligned….This paragraph is left aligned….This paragraph is left aligned….This paragraph is left aligned….This paragraph is left aligned….This paragraph is left aligned….This paragraph is left aligned….\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Alignment": "END",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "This paragraph is right aligned.  This paragraph is right aligned.  This paragraph is right aligned.  This paragraph is right aligned.  This paragraph is right aligned.  This paragraph is right aligned.  This paragraph is right aligned.  \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "This paragraph has an indent from a single tab\n",
+          "Style": {}
+        }
+      ],
+      "ParagraphStyle": {
+        "IndentFirstLine": {
+          "Magnitude": 36,
+          "Unit": "PT"
+        }
+      }
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "This paragraph has an indent from two tabs\n",
+          "Style": {}
+        }
+      ],
+      "ParagraphStyle": {
+        "IndentStart": {
+          "Magnitude": 36,
+          "Unit": "PT"
+        },
+        "IndentFirstLine": {
+          "Magnitude": 72,
+          "Unit": "PT"
+        }
+      }
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ],
+      "ParagraphStyle": {
+        "IndentFirstLine": {
+          "Magnitude": 36,
+          "Unit": "PT"
+        }
+      }
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "BOOKMARK\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Page numbers in top and bottom. \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ],
+      "ParagraphStyle": {
+        "IndentStart": {
+          "Magnitude": 36,
+          "Unit": "PT"
+        },
+        "IndentFirstLine": {
+          "Magnitude": 36,
+          "Unit": "PT"
+        }
+      }
+    },
+    {
+      "Type": "checklist",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Check box checked.Check box checked.Check box checked.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Check box checked.Check box checked.Check box checked. \n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Check box checked.Check box checked.Check box checked.\n",
+              "Style": {}
+            }
+          ]
+        },
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "Check box checked.Check box checked.Check box checked.\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "columnSection",
+      "Level": 2
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 Colume 1 \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2 Colume 2\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "pageBreak"
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": " \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "This is the footer…\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": " \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "table",
+      "Elements": [
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "blockquote",
+                  "Alignment": "START",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "col1\n",
+                      "Style": {}
+                    }
+                  ],
+                  "ParagraphStyle": {
+                    "LineSpacing": 115
+                  }
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "blockquote",
+                  "Alignment": "START",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "col2\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "blockquote",
+                  "Alignment": "START",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "col3\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            }
+          ],
+          "MinRowHeight": {
+            "Unit": "PT"
+          }
+        },
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "blockquote",
+                  "Alignment": "START",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "data1\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "blockquote",
+                  "Alignment": "START",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "data2\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "blockquote",
+                  "Alignment": "START",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "data3\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            }
+          ],
+          "MinRowHeight": {
+            "Unit": "PT"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Table below\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "table",
+      "Elements": [
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL  MERGED CELL \n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ColumnSpan": 2,
+                "ContentAlignment": "TOP"
+              }
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            }
+          ],
+          "MinRowHeight": {
+            "Magnitude": 40.342529296875,
+            "Unit": "PT"
+          }
+        },
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "Identifying linear growth in context\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "Unit 1.2 Activity: weekly earnings table; identify constant change\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            }
+          ],
+          "MinRowHeight": {
+            "Magnitude": 38.5,
+            "Unit": "PT"
+          }
+        },
+        {
+          "Type": "tableRow",
+          "Elements": [
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "Interpreting slope as rate of change\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            },
+            {
+              "Type": "tableCell",
+              "Elements": [
+                {
+                  "Type": "paragraph",
+                  "Elements": [
+                    {
+                      "Type": "text",
+                      "Content": "Unit 1.2 Tell: slope as rate of change, units of change ($/week, mi/hr)\n",
+                      "Style": {}
+                    }
+                  ]
+                }
+              ],
+              "CellStyle": {
+                "ContentAlignment": "TOP"
+              }
+            }
+          ],
+          "MinRowHeight": {
+            "Magnitude": 48.592529296875,
+            "Unit": "PT"
+          }
+        }
+      ],
+      "ColumnWidths": [
+        {
+          "Magnitude": 222.29472735466425,
+          "Unit": "PT"
+        },
+        {
+          "Magnitude": 245.70527264533573,
+          "Unit": "PT"
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": " \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "heading2",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Mar 19, 2026"
+        },
+        {
+          "Type": "text",
+          "Content": " | ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "CSWG Weekly Workshop",
+          "Style": {
+            "Link": "https://www.google.com/calendar/event?eid=b2dwMHFhOWtlZTQ2MjFzN2R1b291a3JmZTRfMjAyNjAzMTlUMjIwMDAwWiBqanNhbGxleUBt"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Attendees: ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "cswg",
+          "Style": {
+            "Link": "mailto:cswg@t7a.org"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "JJ Salley",
+          "Style": {
+            "Link": "mailto:jjsalley@gmail.com"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Notes\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "unordered-list",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Action items\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "checklist",
+      "Elements": [
+        {
+          "Type": "listItem",
+          "Elements": [
+            {
+              "Type": "text",
+              "Content": "\n",
+              "Style": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Horizontal line below this …Horizontal line below this …Horizontal line below this …\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text"
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Horizontal line above this … Horizontal line above this … Horizontal line above this …\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Alignment": "END",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "heading",
+      "Content": "Tab\n",
+      "Level": 1
+    },
+    {
+      "Type": "pageBreak"
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "Tab for google doc \n\nLink to other doc via url: ",
+          "Style": {}
+        },
+        {
+          "Type": "text",
+          "Content": "https://docs.google.com/document/d/1M41ZzhfU9J5mrLXbAbQzQbo5GZvUtLYvXDYRlBvth_8/edit?tab=t.0",
+          "Style": {
+            "Underline": true,
+            "Color": "#1155cc",
+            "Link": "https://docs.google.com/document/d/1M41ZzhfU9J5mrLXbAbQzQbo5GZvUtLYvXDYRlBvth_8/edit?tab=t.0"
+          }
+        },
+        {
+          "Type": "text",
+          "Content": " \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": " \n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    }
+  ],
+  "Footers": [
+    {
+      "Type": "paragraph",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    },
+    {
+      "Type": "paragraph",
+      "Alignment": "END",
+      "Elements": [
+        {
+          "Type": "text",
+          "Content": "[Page #]"
+        },
+        {
+          "Type": "text",
+          "Content": "\n",
+          "Style": {}
+        }
+      ]
+    }
+  ]
+}
