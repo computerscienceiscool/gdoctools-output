@@ -5,9 +5,9 @@
 <br/>
 
 ![Documents](https://img.shields.io/badge/documents-11-58A6FF?style=flat-square&logo=googledocs&logoColor=white)
-![HTML Versions](https://img.shields.io/badge/html_versions-32-BC8CFF?style=flat-square&logo=html5&logoColor=white)
-![Audit Findings](https://img.shields.io/badge/audit_findings-11-F85149?style=flat-square&logo=checkmarx&logoColor=white)
-![Run Date](https://img.shields.io/badge/run_date-03%2F19%2F26-484F58?style=flat-square&logo=calendar&logoColor=white)
+![HTML Versions](https://img.shields.io/badge/html%20versions-32-BC8CFF?style=flat-square&logo=html5&logoColor=white)
+![Audit Findings](https://img.shields.io/badge/audit%20findings-11-F85149?style=flat-square&logo=checkmarx&logoColor=white)
+![Run](https://img.shields.io/badge/run-031926-484F58?style=flat-square&logo=calendar&logoColor=white)
 
 </div>
 
@@ -48,17 +48,17 @@ The full rendered HTML index with all revision history is available on GitHub Pa
 
 | Document | Location | Finding | Detail |
 |:---|:---|:---|:---|
-| MoreComments | para 5 | unresolved suggestion | inserted text |
+| MoreComments | para 5 | unresolved suggestion | inserted text:  |
 | MoreComments | para 6 | unresolved suggestion | inserted text: SuggestEdits |
-| MoreComments | para 7 | unresolved suggestion | inserted text |
-| MoreComments | para 8 | unresolved suggestion | inserted text |
-| MoreComments | para 9 | unresolved suggestion | inserted text |
+| MoreComments | para 7 | unresolved suggestion | inserted text:  |
+| MoreComments | para 8 | unresolved suggestion | inserted text:  |
+| MoreComments | para 9 | unresolved suggestion | inserted text:  |
 | MoreComments | para 10 | unresolved suggestion | inserted text: 😆 |
-| MoreComments | para 10 | unresolved suggestion | style change |
-| MoreComments | para 10 | unresolved suggestion | inserted text |
-| Test3 | para 26 | checklist | 2 items, checked state unknown |
-| TestDoc | para 25 | checklist | 4 items, checked state unknown |
-| TestDoc | para 55 | checklist | 1 item, checked state unknown |
+| MoreComments | para 10 | unresolved suggestion | style change: bold,italic,underline,strikethrough,color,background-color,font-size,font-family,baseline-offset |
+| MoreComments | para 10 | unresolved suggestion | inserted text:  |
+| Test3 | para 26 | checklist | 2 items, checked state unknown (API limitation) |
+| TestDoc | para 25 | checklist | 4 items, checked state unknown (API limitation) |
+| TestDoc | para 55 | checklist | 1 items, checked state unknown (API limitation) |
 
 </details>
 
