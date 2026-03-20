@@ -1,0 +1,35 @@
+<svg width="900" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58A6FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BC8CFF;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="180" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="175" width="900" height="5" fill="url(#accent)" rx="2"/>
+  <g transform="translate(320, 55)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="6" fill="#58A6FF"/>
+    <circle cx="40" cy="-20" r="4" fill="#BC8CFF"/>
+    <circle cx="45" cy="25" r="5" fill="#58A6FF"/>
+    <circle cx="-35" cy="15" r="4" fill="#BC8CFF"/>
+    <line x1="0" y1="0" x2="40" y2="-20" stroke="#58A6FF" stroke-width="1" opacity="0.4"/>
+    <line x1="0" y1="0" x2="45" y2="25" stroke="#BC8CFF" stroke-width="1" opacity="0.4"/>
+    <line x1="0" y1="0" x2="-35" y2="15" stroke="#58A6FF" stroke-width="1" opacity="0.4"/>
+    <line x1="40" y1="-20" x2="45" y2="25" stroke="#BC8CFF" stroke-width="1" opacity="0.3"/>
+  </g>
+  <text x="450" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700"
+        fill="url(#accent)" text-anchor="middle" filter="url(#glow)">gdoctools</text>
+  <text x="450" y="112" font-family="'Segoe UI', Arial, sans-serif" font-size="16"
+        fill="#8B949E" text-anchor="middle">document extraction &amp; migration index</text>
+  <text x="450" y="140" font-family="'Courier New', monospace" font-size="12"
+        fill="#484F58" text-anchor="middle">run 032026 // 11 documents // 34 html versions</text>
+</svg>
